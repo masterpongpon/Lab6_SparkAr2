@@ -52,17 +52,3 @@ Patches.outputs.getPulse('gamePlay').then(event => {
 Patches.inputs.setBoolean('start', true);
 Patches.inputs.setBoolean('reset', false);
 
-(async function () {  // Enables async/await in JS [part 1]
-
-  // To access scene objects
-  // const [directionalLight] = await Promise.all([
-  //   Scene.root.findFirst('directionalLight0')
-  // ]);
-
-  // To access class properties
-  // const directionalLightIntensity = directionalLight.intensity;
-
-  // To log messages to the console
-  // Diagnostics.log('Console message logged from the script.');
-
-})(); // Enables async/await in JS [part 2]
